@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+
+
+
+ <html>
+  <head>
+    <title>Web and HTML basics</title>
+  </head>
+  <h1> Web and HTML Basics</h1>
+
+    Instructor: Steve Huffman (co founder of <a href="www.reddit.com"> Reddit</a>)
+
+    <p> <strong>Atom </strong> </p>
+
+      <div>Good to use as you can preview your HTML within it
+      using the atom-html-preview package.
+
+      Once installed you can use it by pressing ctrl + shift + H
+      your html preview will appear.
+
+      You can preview your HTML by opening the file in Chrome, safari or firefox
+      In order to see the updated version you must first save your work.
+    </div>
+
+    <h2>World Wide Web</h2>
+
+      <br>Aims:</br>
+        <div><br>-A basic understanding of how the internet works<br>
+            -Understand how Users, computers, servers, HTTP and the Internet fit together.</div>
+        <br>
+        <p>-<b>The World Wide Web</b>  A Collection of HTML Documents
+            Created in the 1990s and comprises of around 30 billion pages.
+            The documents can contain videos, pictures, music and plain text files.</p>
+
+      <p>-<b>HTML</b> (HyperText Markup Language)
+            This is what the web runs on and glues everything together.</p>
+
+          <p>-<b>URL</b> (Uniform Resource Locator) the www. address typed in the browser.
+       </p>
+
+      <div><strong>-HTTP (Hypertext Transfer Protocol)</strong>
+        HTTP is a Protocol that handles your computers request from the server via the Internet.
+        Server then sends back files which your browser displays.</div>
+      <br>
+        <div>-<b>Server</b> A computer that hosts files and sends them
+          to your computer via the HTTP protocol.</div>
+
+       <br>
+
+      <h2>In a nutshell</h2>
+
+      <p><b>Cient(computer) talks to server via the internet using http on a browser.</b></p>
+
+      <div> <a href="http://s146.photobucket.com/user/wilson-alasdair/media/Screen%20Shot%202017-02-28%20at%2015.11.55_zpsqjyfbytc.png.html" target="_blank"><img src="http://i146.photobucket.com/albums/r261/wilson-alasdair/Screen%20Shot%202017-02-28%20at%2015.11.55_zpsqjyfbytc.png" border="0" alt="World wide web photo Screen Shot 2017-02-28 at 15.11.55_zpsqjyfbytc.png"/></a>
+
+      <h1>HTML</h1><h3>(Hypertext Markup Language)</h3>
+
+       <p><b>Aims</b>
+       -use HTML tags to create an HTML document and display as a web page.
+       </p>
+       <p>  HTML is Made up of:<br>
+         <br>-Text Content (the bits you see).</br>
+          <br> -markup (what it looks like).</br>
+            <br> -references to documents such as music, videos and images.</br>
+              <br>-links to join up other pages.</br>
+       </p>
+
+         <h2>HTML Markup:</h2>
+
+            <p> The markup tag allows you to edit the text nested within it.
+            </p>
+
+
+              <p> The tag must start with <b>opening brackets</b>. <> </p>
+                <b> closing brackets/end tags </b> are the same as the opening tags but with a /<br>
+                    Must be used or else the rest of the html will take on the markup's state.
+              </p>
+
+              <p>Tags can change the look of the text nested in it.
+              For instance the word love below will be <b>bold</b>:
+              </p>
+
+              <br>I am going to <b>love</b> HTML.</br>
+
+            <br>
+            <br>
+
+        <h3>Computers Are Stupid!</h3>
+
+          <p><b>Not an insult</b>, just the way you need to feed a computer instructions.
+            For instance: 'A Panda eats shoots and leaves' could mean 2 things.
+            Humans can put the sentence in context, computers cant.</p>
+
+    <h3>HTML Attributes</h3>
+
+   <!-- example below -->
+      <tag attr="value"> </tag>
+
+        <p>-Attritbutes all ways equal a value.<br>
+            -Multiple attributes can live within a tag.
+          </p>
+
+          <P><b>Anchor tag</b>: <!--<a>--> used for making links <br>
+             -You can name a link anything.<br>
+              -when clicked it will take you to webpage/file
+         </p>
+              <!-- EXAMPLE OF THE ANCHOR TAG BELOW-->
+
+            <div>  <a href="www.reddit.com"> derp </a></div>
+
+
+            <b>Image tag:</b> <!--<img>--> (for adding images)
+              <br>
+              <br>
+               <img  href="http://s146.photobucket.com/user/wilson-alasdair/media/Derp_zps2gsvyck0.jpg.html" target="_blank"><img src="http://i146.photobucket.com/albums/r261/wilson-alasdair/Derp_zps2gsvyck0.jpg" border="0" alt=" photo Derp_zps2gsvyck0.jpg"/></a>
+
+
+
+   <p>This is a VOID tag, a tag that has no content. It will just appear inline with text.
+  </p>
+
+  <p><b>IMPORTANT</b> - Create an alt line of text after img tag.
+    This is courtesy for blind people and if the img link is broken
+  </p>
+
+ <h2>Whitespace</h2><br>
+        HTML renders on 1 line even if you write on 2, all white space turns into a single space
+        you can avoid this by using the <br> (break) tag (which is void). You can enter more than one:
+        <br>
+        <br>
+        <br>
+        <p>Like this.</p>
+
+         Or you can use the <p>paragraph tag</p>
+         <p>Like this.</p>
+
+        <span><b>Inline elements</b> Just wraps text to the next line<span><br>
+
+          <p><b>Block Elements</b> create a see-through box around the text
+          </p>
+
+      <h2>Span and Div</h2>
+
+        <Span> is inline </span>
+
+          <Div> is a block, behaves a bit like the p tag.</div>
+
+        <br>
+
+      <h2>HTML Document Structure</h2>
+
+      <p>
+        <b>Doctype</b>- <!DOCTYPE HTML> defines the document you start a doc with this. <br>
+         <b>HTML tag</b>-<html>surrounds the whole document.(remember closing tag!)<br>
+          <b>Head </b>-<head>contains all the page's metadata includes it's javascript and CSS.<br>
+            <b>Title</b>- <!-- <title>--> is what appears at top of page and in browser tag.<br>
+              <b>Body</b> -<contains> the main (visible) content of the document.
+     </p>
+    <b>Indentaion is important. You indent when starting a new idea,</b>
+        <b>and then continue to</b>
+          <b>indent inside that new idea.<b>
+
+</html>
